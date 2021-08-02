@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url("/images/img2.jpg");
+    background-size:auto;
+    text-align: center;
+}
+.nav_menu
+{
+display:inline-block;
+ overflow:hidden;
+background-color:rgb(110, 14, 14);
+border:solid 5px rgb(0, 0, 0);
+border-radius:5px;
+width: 323px;
+margin-left: 100px;
+background-attachment:scroll;
+}
+.nav_menu a{
+float:left;
+/* display:bloc; */
+color:rgb(255, 238, 142);
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+border:solid 2px sandybrown;
+
+}
+.nav_menu a:hover
+{
+background-color:rgb(255, 238, 144);color:black;
+}
+.page1{
+    display: contents;
+    color: wheat;
+    height: 100vh;
+    border: 3px solid beige;
+    border-radius:15px;
+}
+.page2{
+    
+    display: block;
+    color: wheat;
+    height: 100vh;
+    border: 3px solid beige;
+    border-radius:15px;
+    background-image: url("/images/img03.jpg");
+}
+.page3{
+    
+    display: block;
+    color: wheat;
+    height: 100vh;
+    border: 3px solid beige;
+    background-image:url("/images/img.jpg");
+    background-size: cover;
+}
+.page4{
+    
+    display: block;
+    color: wheat;
+    height: 100vh;
+    border: 3px solid beige;
+    border-radius:15px;
+    background-image:url("/images/img1.jpeg");
+    background-size:cover;
+}
+.greet{
+    display:inline-block;
+    margin: 250px 35px 150px 50px;
+    padding: 25px;
+    border: 15px groove brown;
+    border-radius: 15px;
+    height: 25%;
+    width: 25%;
+    line-height: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img{
+    display:inline-flex;
+    margin-top: 35px;
+    padding: 15px;
+    width:25%;
+    height: 35%;
+    border-radius: 300px;
+}
+.contact{
+    display: inline-block;
+    margin:150px;
+    padding: 25px;
+    width:500px;
+    height:250px;
+    background-image: url("/images/img1.jpeg");
+    background-repeat: no-repeat;
+    color:black;
+    text-align: start;
+    border-radius: 50px;
+}
+label{
+    display: block;
+    background-color: antiquewhite;
+    width:100px;
+    border: 3px solid brown;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about{
+display: inline-block;
+margin: 25px;
+padding: 25px;
+line-height: 50px;
+color: rgb(181, 131, 228);
+text-shadow: 30px;
+background-color:bisque;
+border-radius: 100px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
